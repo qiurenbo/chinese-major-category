@@ -2,9 +2,9 @@
 
 中国公考专业目录
 
-## 格式
+## major.json
 
-entity:具体专业, firstClass:大类
+冗余表
 
 ```json
 {
@@ -21,4 +21,33 @@ entity:具体专业, firstClass:大类
         "majorName": "中文文秘类"
     }
 },
+```
+
+## majorIndex
+
+专业表
+
+```json
+[
+  {
+    "eduLevel": "研究生",
+    "code": "01010001",
+    "name": "文艺学",
+    "secondClassCode": "0101"
+  }
+]
+```
+
+## secondClassIndex
+
+大类表
+
+```json
+[
+  {
+    "eduLevel": "专科",
+    "code": "0350",
+    "name": "计算机（网络管理）类"
+  }
+]
 ```
